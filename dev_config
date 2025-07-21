@@ -1,6 +1,6 @@
 # dev_config - development environment setup
 
-AMI_ID="ami-0fc5d935ebf8bc3bc"        # Amazon Linux 2023 (Mumbai region)
+AMI_ID="ami-0c768662cc797cd75"        # Amazon Linux 2023 (Mumbai region)
 INSTANCE_TYPE="t2.micro"
 KEY_NAME="techeazy-key"               # Your key pair name
 SEC_GROUP="sg-0abc1234def5678gh"      # Your security group ID (open port 80)
