@@ -22,7 +22,7 @@ INSTANCE_ID=$(aws ec2 run-instances \
   --image-id $AMI_ID \
   --instance-type $INSTANCE_TYPE \
   --key-name $KEY_NAME \
- --security-group-ids $SEC_GROUP="sg-0d9d8437670b1bf76" \
+ --security-group-ids="sg-0d9d8437670b1bf76" \
   --subnet-id $SUBNET_ID \
   --user-data file://setup.sh \
   --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=techeazy-devops}]' \
