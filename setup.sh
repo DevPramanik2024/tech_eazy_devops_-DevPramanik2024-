@@ -21,4 +21,4 @@ cd techeazy-devops
 mvn clean package
 
 # Step 7: Run the app on port 80 (required by assignment)
-sudo nohup java -jar target/techeazy-devops-0.0.1-SNAPSHOT.jar --server.port=80 &
+sudo nohup java -jar target/techeazy-devops-0.0.1-SNAPSHOT.jar --server.port=8080 &
