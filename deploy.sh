@@ -52,8 +52,8 @@ curl -I http://$PUBLIC_IP:80
 
 
 # Step 6: Stop EC2 instance to save cost
-echo "⏱ Waiting 2 mins before stopping instance..."
-sleep 120
+#echo "⏱ Waiting 2 mins before stopping instance..."
+#sleep 120
 
-aws ec2 stop-instances --instance-ids $INSTANCE_ID
-echo "🛑 EC2 instance stopped."
+#aws ec2 stop-instances --instance-ids $INSTANCE_ID
+#echo "🛑 EC2 instance stopped."
